@@ -7,7 +7,7 @@ public class TimelineTrigger : MonoBehaviour
 {
     public PlayableDirector timeline;
 
-    public bool OneTimeTrigger = false; // true = this trigger will self destruct after one use.
+    public bool OneTimeTrigger = true; // true = this trigger will self destruct after one use.
 
     private void OnTriggerEnter(Collider other)
     {
